@@ -1,1 +1,26 @@
-style.css
+header{
+  padding:50px;
+}
+header.big{
+  text-align:center;
+}
+.big h1{
+  font-size:34.5px;
+}
+p{
+ color:white;
+ background-color:black; 
+}
+p.special{
+color:red;
+background-color:yellow;
+direction:rtl;
+unicode-bidi:bidi-override;
+}
+.cat:hover{
+  margin:0 auto;
+  display:block;
+  border-width:5px;
+  border-color:black;
+  border-style:solid;
+}
